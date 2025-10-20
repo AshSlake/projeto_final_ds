@@ -127,9 +127,9 @@ $formacao->inserirDB();
 ## 🧑‍💻 Autor
 
 **Paulo Henrique**  
-💼 Projeto desenvolvido como avaliação final da disciplina **Desenvolvimento de Sistemas**.  
+💼 Projeto desenvolvido como projeto final da disciplina **Desenvolvimento de Sistemas**.  
 📅 Ano: 2025  
-📧 Contato: *(adicione seu e-mail aqui)*  
+📧 Contato: *ashslake264@gmail.com*  
 
 ---
 
