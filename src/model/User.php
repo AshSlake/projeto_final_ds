@@ -5,9 +5,9 @@ class User
     // Atributos
     private int $userId;
     private string $nome;
-    private string $cpf;
+    private string $cpf;  // Futuramente implementar classe CPF para gerenciamento e normalização do cpf para evitar uso de tipos primitivos.
     private DateTime $dataNascimento;
-    private string $email;
+    private string $email;  // Do mesmo jeito que o cpf o EMAIL deve ser um Objeto por ser uma dado complexo e assim evitar uso de tipo primitivo.
     private string $senha;
 
     // Construtor
