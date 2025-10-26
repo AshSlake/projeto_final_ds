@@ -64,6 +64,10 @@
             <i class="fa fa-briefcase w3-xxlarge"></i>
             <p>EXPERIÊNCIA</p>
         </a>
+        <a href="#outras_formacao" class="w3-bar-item w3-button w3-hover-light-grey w3-hover-text-cyan w3-text-light-grey">
+            <i class="fa fa-book w3-xxlarge"></i>
+            <p>OUTRAS FORMAÇÕES</p>
+        </a>
     </nav>
 
     <!-- CONTEÚDO PRINCIPAL -->
@@ -267,7 +271,76 @@
                                 <td>Centro Paula Souza</td>
                                 <td>Desenvolvimento de Páginas Web</td>
                                 <td>
-                                    <button class="w3-button w3-red w3-round-large w3-hover-dark-grey">
+                                    <button name="btnAddEP" class="w3-button w3-red w3-round-large w3-hover-dark-grey">
+                                        <i class="fa fa-trash"></i>
+                                    </button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </form>
+        </section>
+
+        <!-- OUTRAS FORMAÇÕES -->
+        <section id="outras_formacao" class="w3-content w3-text-grey">
+            <h2 class="w3-text-cyan">Outras Formações</h2>
+
+            <form action="#" method="post"
+                class="w3-container w3-light-grey w3-text-blue w3-card-4 w3-round-large w3-padding-32"
+                style="width:70%;">
+
+                <div class="w3-row w3-center w3-margin-top">
+                    <div class="w3-col" style="width:50%;">
+                        <b>Data Inicial</b>
+                    </div>
+                    <div class="w3-rest">
+                        <b>Data Final</b>
+                    </div>
+                </div>
+
+                <div class="w3-row w3-section w3-center">
+                    <div class="w3-col" style="width:45%;">
+                        <input class="w3-input w3-border w3-round-large" name="txtInicioOF" type="date">
+                    </div>
+                    <div class="w3-rest">
+                        <input class="w3-input w3-border w3-round-large" name="txtFimOF" type="date">
+                    </div>
+                </div>
+
+                <div class="w3-row w3-section w3-center">
+                    <div class="w3-col" style="width:7%;">
+                        <i class="w3-xxlarge fa fa-align-justify"></i>
+                    </div>
+                    <div class="w3-rest">
+                        <input class="w3-input w3-border w3-round-large" name="txtDescEP" type="text"
+                            placeholder="Descrição: Ex. Técnico em Desenvolvimento de Sistemas - Centro Paula Souza">
+                    </div>
+                </div>
+
+                <div class="w3-center">
+                    <button class="w3-button w3-blue w3-round-large w3-hover-cyan w3-margin-top" style="width:25%;" name="btnAddOF">
+                        <i class="fa fa-plus w3-xlarge"></i> Adicionar
+                    </button>
+                </div>
+
+                <div class="w3-container w3-margin-top">
+                    <table class="w3-table-all w3-centered w3-hoverable w3-card-4">
+                        <thead>
+                            <tr class="w3-blue">
+                                <th>Início</th>
+                                <th>Fim</th>
+                                <th>Descrição</th>
+                                <th>Apagar</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>2023-01-01</td>
+                                <td>2024-01-01</td>
+                                <td>Técnico em Análise de Sistemas - ETEC</td>
+                                <td>
+                                    <button name="btnExcluirOF" class="w3-button w3-red w3-round-large w3-hover-dark-grey">
                                         <i class="fa fa-trash"></i>
                                     </button>
                                 </td>
